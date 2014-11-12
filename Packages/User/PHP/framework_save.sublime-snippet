@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+if (\$${1:elt}->save())
+{
+	\$message->addMessage(Message::SUCCESS_MESSAGE, '${2:Enregistrement effectué}');
+}
+else {
+	\$message->addMessage(Message::ERROR_MESSAGE, '${3:Une erreur est survenue lors de l\'enregistrement.}');
+}
+]]></content>
+	<tabTrigger>save</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

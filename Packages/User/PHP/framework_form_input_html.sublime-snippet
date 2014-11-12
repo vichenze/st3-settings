@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php
+	echo Form::input(array(	'name' 			=> '${1:name}',
+							'label'			=> '${2:label}${3:<span class="obligatoire">*</span>} :',
+							'value'			=> \$${4:objet}->get('${5:attr}'),
+							'error'			=> \$message->getMessage(Message::ERROR_MESSAGE, '${6:name}'),
+							'before_input'	=> '<span class="input-container">',
+							'after_input'	=> '</span>',
+							'before'		=> '<li>',
+							'after'			=> '</li>'));
+?>
+]]></content>
+	<tabTrigger>form_input</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

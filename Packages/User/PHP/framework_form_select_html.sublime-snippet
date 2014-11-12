@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<?php
+	echo Form::select(array(	'name' 			=> '${1:name}',
+								'label'			=> '${2:label}${3:<span class="obligatoire">*</span>} :',
+								'selected'		=> \$${4:participant}->get('${5:attr}'),
+								'options'		=> \$${6:liste_niveauD}->getTabOptions(),
+								'error'			=> \$message->getMessage(Message::ERROR_MESSAGE, '${7:name}'),
+								'before_input'	=> '<span class="input-container">',
+								'after_input'	=> '</span>',
+								'before'		=> '<li>',
+								'after'			=> '</li>'));
+?>
+]]></content>
+	<tabTrigger>form_select</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

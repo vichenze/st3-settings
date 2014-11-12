@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Bootstrap 3 Snippets",
+		"BracketHighlighter",
+		"BufferScroll",
+		"Clickable URLs",
+		"Color Highlighter",
+		"Console API Snippets (JavaScript)",
+		"CSS Format",
+		"DocBlockr",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"HTML5",
+		"Indent XML",
+		"jQuery",
+		"jQuery Snippets pack",
+		"LESS",
+		"Open URL",
+		"Open-Include",
+		"PhpDoc",
+		"Search in Project",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php"
+	]
+}

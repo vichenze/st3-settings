@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php
+	echo Form::checkbox(array(	'name' 			=> '${1:name}',
+								'checked'		=> \$${2:array},
+								'options'		=> \$${3:array},
+								'error'			=> \$message->getMessage(Message::ERROR_MESSAGE, '${4:name}'),
+								'before_input'	=> '<span class="input-container">',
+								'after_input'	=> '</span>',
+								'before'		=> '<li>',
+								'after'			=> '</li>'));
+?>
+]]></content>
+	<tabTrigger>form_checkbox</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

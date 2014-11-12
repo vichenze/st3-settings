@@ -1,0 +1,54 @@
+{
+	"annotations":
+	[
+		"TODO",
+		"README",
+		"FIXME",
+		"OPTIMIZE"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/User/Twilight (SL).tmTheme",
+	"dictionary": "Packages/Language - French/French.dic",
+	"file_exclude_patterns":
+	[
+		"*.sql",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules",
+		"doc"
+	],
+	"font_size": 8,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Open-Include",
+		"jQuery",
+		"Vintage",
+		"CSS Format"
+	],
+	"sublimelinter_gutter_marks": true,
+	"sublimelinter_notes": true,
+	"sublimelinter_popup_errors_on_save": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

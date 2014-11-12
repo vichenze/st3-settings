@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$${1:message}->getMessage(Message::INFO_MESSAGE, '${2:message}')
+]]></content>
+	<tabTrigger>get_msg_i</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

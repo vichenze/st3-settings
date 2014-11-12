@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$${1:message}->messageExists(Message::SUCCESS_MESSAGE)
+]]></content>
+	<tabTrigger>is_msg_s</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

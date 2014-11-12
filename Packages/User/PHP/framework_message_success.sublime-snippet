@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$${1:message}->addMessage(Message::SUCCESS_MESSAGE, '${2:message}');
+]]></content>
+	<tabTrigger>msg_s</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
